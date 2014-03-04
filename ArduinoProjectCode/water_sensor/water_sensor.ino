@@ -1,6 +1,9 @@
 const int analogInPin = A0;  
 int sensorValue = 0;        // value read from the pot
 
+//code by Phillip
+int test1=0;
+
 void setup() {
   Serial.begin(9600); 
 }
