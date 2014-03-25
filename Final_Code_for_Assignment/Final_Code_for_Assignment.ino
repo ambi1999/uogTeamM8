@@ -51,7 +51,7 @@ void ultrasonicLED(){
   Serial.print(DistanceCm); 
   Serial.println("cm");
   
-  if (DistanceCm >= 40 && DistanceCm<= 50){
+  if (DistanceCm >= 40 && DistanceCm<= 50){           //make into a function, call with delay time
     digitalWrite( LED, HIGH);
     delay(100);
     digitalWrite(LED, LOW);    
